@@ -612,7 +612,7 @@ h6:empty {
   text-underline-offset: 0.3rem;
   color: rgb(var(--color-link));
   background-color: transparent;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-family: inherit;
 }
 
@@ -2244,7 +2244,7 @@ input[type='checkbox'] {
   .header--middle-left {
     grid-template-areas: 'heading navigation icons';
     grid-template-columns: auto auto 1fr;
-    column-gap: 2rem;
+    column-gap: 0;
   }
 
   .header--top-center {
@@ -2337,7 +2337,7 @@ input[type='checkbox'] {
 }
 
 .header__icon {
-  color: rgb(var(--color-foreground));
+  color: var(--header-item-color);
 }
 
 .header__icon span {
