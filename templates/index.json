@@ -1,39 +1,51 @@
 {
   "sections": {
-    "1659901627c361cb6b": {
-      "type": "image-with-text",
+    "16599041832b41f384": {
+      "type": "image-banner",
       "blocks": {
-        "165990162648ffacbc-0": {
+        "16599041830fab931f-0": {
           "type": "heading",
           "settings": {
-            "heading": "Always Fresh",
+            "heading": "Image banner",
             "heading_size": "h1"
           }
         },
-        "165990162648ffacbc-1": {
+        "16599041830fab931f-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our products made in USA and delivered to you same day!<\/p>",
+            "text": "Give customers details about the banner image(s) or content on the template.",
             "text_style": "body"
+          }
+        },
+        "16599041830fab931f-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "165990162648ffacbc-0",
-        "165990162648ffacbc-1"
+        "16599041830fab931f-0",
+        "16599041830fab931f-1",
+        "16599041830fab931f-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/oba-baklava-logo-282x221.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image": "shopify:\/\/shop_images\/PHOTO-2022-08-03-07-05-07.jpg",
+        "image_overlay_opacity": 20,
+        "image_height": "large",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 52,
-        "padding_bottom": 52
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "featured_collection": {
@@ -169,7 +181,7 @@
     }
   },
   "order": [
-    "1659901627c361cb6b",
+    "16599041832b41f384",
     "featured_collection",
     "collage",
     "video",
