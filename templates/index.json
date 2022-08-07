@@ -1,53 +1,5 @@
 {
   "sections": {
-    "16599041832b41f384": {
-      "type": "image-banner",
-      "blocks": {
-        "16599041830fab931f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Obabaklava",
-            "heading_size": "h1"
-          }
-        },
-        "16599041830fab931f-1": {
-          "type": "text",
-          "settings": {
-            "text": "Always fresh!",
-            "text_style": "body"
-          }
-        },
-        "16599041830fab931f-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16599041830fab931f-0",
-        "16599041830fab931f-1",
-        "16599041830fab931f-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/PHOTO-2022-08-03-07-05-07.jpg",
-        "image_overlay_opacity": 20,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -181,7 +133,6 @@
     }
   },
   "order": [
-    "16599041832b41f384",
     "featured_collection",
     "collage",
     "video",
