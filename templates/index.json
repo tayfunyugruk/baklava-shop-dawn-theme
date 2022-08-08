@@ -1,5 +1,52 @@
 {
   "sections": {
+    "16599255769c98ff98": {
+      "type": "image-banner-with-logo",
+      "blocks": {
+        "165992557669406232-0": {
+          "type": "logo_image",
+          "settings": {
+            "logo_image": "shopify:\/\/shop_images\/oba-baklava-logo-282x221.png"
+          }
+        },
+        "165992557669406232-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "165992557669406232-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now",
+            "button_link_1": "shopify:\/\/collections\/all",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "165992557669406232-0",
+        "165992557669406232-1",
+        "165992557669406232-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PHOTO-2022-08-03-07-05-07.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
@@ -133,6 +180,7 @@
     }
   },
   "order": [
+    "16599255769c98ff98",
     "featured_collection",
     "collage",
     "video",
