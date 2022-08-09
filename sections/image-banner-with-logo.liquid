@@ -1,3 +1,4 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 {{ 'section-image-banner-with-logo.css' | asset_url | stylesheet_tag }}
 
 {%- if section.settings.adapt_height_first_image and section.settings.image != blank -%}
@@ -49,7 +50,7 @@
     </div>
   {%- endif -%}
   <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient">
+    <div class="banner__box content-container content-container--full-width-mobile color-{{ section.settings.color_scheme }} gradient banner__box_opac">
       {%- for block in section.blocks -%}
         {%- case block.type -%}
           {%- when 'logo_image' -%}
