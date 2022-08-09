@@ -1,6 +1,11 @@
 /* section-image-banner.css is a shared css file and custom styles for this  */
 /* section are listed here */
 
-.banner__box_opac {
+.banner__box__with_logo {
   background-color: rgba(255, 255, 255, 0.72);
+}
+
+.banner__text__with_logo {
+  font-size: 3rem;
+  font-weight: bold;
 }
