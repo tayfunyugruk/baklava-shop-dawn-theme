@@ -74,6 +74,78 @@
         "padding_bottom": 36
       }
     },
+    "1660506591c1971b74": {
+      "type": "featured-product",
+      "blocks": {
+        "1660506591a610a626-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1660506591a610a626-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1660506591a610a626-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1660506591a610a626-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1660506591a610a626-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "1660506591a610a626-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1660506591a610a626-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1660506591a610a626-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "1660506591a610a626-0",
+        "1660506591a610a626-1",
+        "1660506591a610a626-2",
+        "1660506591a610a626-3",
+        "1660506591a610a626-4",
+        "1660506591a610a626-5",
+        "1660506591a610a626-6",
+        "1660506591a610a626-7"
+      ],
+      "settings": {
+        "product": "classic-baklava",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "collage": {
       "type": "collage",
       "blocks": {
@@ -182,6 +254,7 @@
   "order": [
     "16599255769c98ff98",
     "featured_collection",
+    "1660506591c1971b74",
     "collage",
     "video",
     "multicolumn"
