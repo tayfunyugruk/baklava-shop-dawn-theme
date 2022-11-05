@@ -217,6 +217,9 @@
                 <h2 class="h1">
                   {{ product.title | escape }}
                 </h2>
+                <h4 style="margin-top: 12px">
+                  Weight: {{ product.variants.first.weight | weight_with_unit }}lbs
+                </h4>
               </a>
             </div>
           {%- when 'price' -%}
