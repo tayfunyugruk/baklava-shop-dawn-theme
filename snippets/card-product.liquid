@@ -107,6 +107,9 @@
               {{ card_product.title | escape }}
             </a>
           </h3>
+          <h3 class="card__heading{% if card_product.featured_media or settings.card_style == 'standard' %} h5{% endif %}" style="margin-top: 12px; margin-bottom: 12px;">
+            Weight: {{ card_product.variants.first.weight | weight_with_unit }}
+          </h3>
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
