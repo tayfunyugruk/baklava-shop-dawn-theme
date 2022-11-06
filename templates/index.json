@@ -3,17 +3,7 @@
     "16599255769c98ff98": {
       "type": "obaklava-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/PHOTO-2022-08-06-13-54-45_2.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "image": "shopify:\/\/shop_images\/baklava-main-background_4c1087ee-e14a-4058-b517-98fc258c6b78.png"
       }
     },
     "featured_collection": {
