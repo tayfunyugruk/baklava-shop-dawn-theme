@@ -1,38 +1,7 @@
 {
   "sections": {
     "16599255769c98ff98": {
-      "type": "image-banner-with-logo",
-      "blocks": {
-        "165992557669406232-0": {
-          "type": "logo_image",
-          "settings": {
-            "logo_image": "shopify:\/\/shop_images\/oba-baklava-logo-282x221_opac.png"
-          }
-        },
-        "165992557669406232-1": {
-          "type": "text",
-          "settings": {
-            "text": "Always fresh, from our oven to you",
-            "text_style": "subtitle"
-          }
-        },
-        "165992557669406232-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Shop Now",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "165992557669406232-0",
-        "165992557669406232-1",
-        "165992557669406232-2"
-      ],
+      "type": "obaklava-image-banner",
       "settings": {
         "image": "shopify:\/\/shop_images\/PHOTO-2022-08-06-13-54-45_2.jpg",
         "image_overlay_opacity": 0,

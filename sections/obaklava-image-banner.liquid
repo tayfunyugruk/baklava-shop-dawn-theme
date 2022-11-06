@@ -1,0 +1,88 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .main_background_image_container {
+    min-height: 72vh;
+    background-color: white;
+  }
+
+  #Banner-{{ section.id }}::after{
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+
+  .main_background_image {
+    background-image: url({{ section.settings.image | image_url: width: 1500 }});
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-color: white;
+    height: 100%
+  }
+
+  /* For extremely small screen devices (595px and below) */
+  @media only screen and (max-width: 768px) {
+    .main_background_image_container {
+      min-height: 50vh;
+    }
+
+    .main_background_image {
+      background-size: 90%;
+    }
+  }
+
+  /* Big screen devices (889px and above) */
+  @media only screen and (min-width: 768px) {
+    .main_background_image_container {
+      min-height: 60vh;
+    }
+
+    .main_background_image {
+      background-size: 80%;
+    }
+  }
+
+  @media only screen and (min-width: 889px) {
+    .main_background_image_container {
+      min-height: 68vh;
+    }
+
+    .main_background_image {
+      background-size: 60%;
+    }
+  }
+
+  /* Extra big screen devices (1200px and above) */
+  @media only screen and (min-width: 1200px) {
+    .main_background_image_container {
+      min-height: 72vh;
+    }
+
+    .main_background_image {
+      background-size: 50%;
+    }
+  }
+{%- endstyle -%}
+
+<div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} {% if section.settings.stack_images_on_mobile and section.settings.image != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} main_background_image_container">
+  {%- if section.settings.image != blank -%}
+    <div class="banner__media media main_background_image {% if section.settings.image == blank %} placeholder{% endif %}">
+      <span></span>
+    </div>
+  {%- endif -%}
+</div>
+
+{% schema %}
+  {
+    "name": "Obaklava Image Banner",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.image-banner.settings.image.label"
+      }
+    ],
+    "presets": []
+  }
+{% endschema %}
