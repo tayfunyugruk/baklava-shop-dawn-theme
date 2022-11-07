@@ -3,11 +3,13 @@
     "main-page-banner-image": {
       "type": "obaklava-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/baklava-main-background_4c1087ee-e14a-4058-b517-98fc258c6b78.png"
+        "image": "shopify:\/\/shop_images\/main_page_image_1600x1018_with_icons.png"
       }
     },
-    "why-oba-baklava" : {
-      "type": "why-oba-baklava"
+    "why-oba-baklava": {
+      "type": "why-oba-baklava",
+      "settings": {
+      }
     },
     "featured_collection": {
       "type": "featured-collection",
