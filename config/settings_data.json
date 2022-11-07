@@ -122,9 +122,9 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
+          "logo": "shopify:\/\/shop_images\/obabaklava_logo_opac_309x242_8afacd83-8296-4dda-a6e4-fe3a8eee06a2.png",
           "logo_width": 90,
-          "logo_position": "middle-left",
+          "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
