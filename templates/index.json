@@ -1,9 +1,14 @@
 {
   "sections": {
-    "16599255769c98ff98": {
+    "main-page-banner-image": {
       "type": "obaklava-image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/baklava-main-background_4c1087ee-e14a-4058-b517-98fc258c6b78.png"
+        "image": "shopify:\/\/shop_images\/main_page_image_1600x1018_with_icons.png"
+      }
+    },
+    "why-oba-baklava": {
+      "type": "why-oba-baklava",
+      "settings": {
       }
     },
     "featured_collection": {
@@ -33,7 +38,7 @@
         "padding_bottom": 36
       }
     },
-    "1660506591c1971b74": {
+    "main-page-featured-product": {
       "type": "featured-product",
       "blocks": {
         "1660506591a610a626-0": {
@@ -160,9 +165,10 @@
     }
   },
   "order": [
-    "16599255769c98ff98",
+    "main-page-banner-image",
+    "why-oba-baklava",
     "featured_collection",
-    "1660506591c1971b74",
+    "main-page-featured-product",
     "multicolumn"
   ]
 }

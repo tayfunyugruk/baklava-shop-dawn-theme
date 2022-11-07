@@ -1,73 +1,50 @@
 {{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  .main_background_image_container {
+  .oba_main_background_image_container {
     min-height: 72vh;
     background-color: white;
+  }
+
+  .oba_main_background_image_container img {
+    height: 80vh;
+    width: 100%;
+    object-fit: contain;
   }
 
   #Banner-{{ section.id }}::after{
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
 
-  .main_background_image {
-    background-image: url({{ section.settings.image | image_url: width: 1500 }});
-    background-size: 50%;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: white;
-    height: 100%
-  }
-
-  /* For extremely small screen devices (595px and below) */
   @media only screen and (max-width: 768px) {
-    .main_background_image_container {
-      min-height: 50vh;
+    .oba_main_background_image_container {
+      height: 50vh;
+      min-height: 30vh;
     }
-
-    .main_background_image {
-      background-size: 90%;
-    }
-  }
-
-  /* Big screen devices (889px and above) */
-  @media only screen and (min-width: 768px) {
-    .main_background_image_container {
-      min-height: 60vh;
-    }
-
-    .main_background_image {
-      background-size: 80%;
-    }
-  }
-
-  @media only screen and (min-width: 889px) {
-    .main_background_image_container {
-      min-height: 68vh;
-    }
-
-    .main_background_image {
-      background-size: 60%;
-    }
-  }
-
-  /* Extra big screen devices (1200px and above) */
-  @media only screen and (min-width: 1200px) {
-    .main_background_image_container {
-      min-height: 72vh;
-    }
-
-    .main_background_image {
-      background-size: 50%;
+    .oba_main_background_image_container img {
+      height: 50vh;
+      width: 100%;
+      object-fit: none;
     }
   }
 {%- endstyle -%}
 
-<div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} {% if section.settings.stack_images_on_mobile and section.settings.image != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} main_background_image_container">
+<div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--content-align-mobile-{{ section.settings.mobile_content_alignment }} {% if section.settings.stack_images_on_mobile and section.settings.image != blank %} banner--stacked{% endif %}{% if section.settings.adapt_height_first_image and section.settings.image != blank %} banner--adapt{% endif %}{% if section.settings.show_text_below %} banner--mobile-bottom{%- endif -%}{% if section.settings.show_text_box == false %} banner--desktop-transparent{% endif %} oba_main_background_image_container">
   {%- if section.settings.image != blank -%}
-    <div class="banner__media media main_background_image {% if section.settings.image == blank %} placeholder{% endif %}">
-      <span></span>
-    </div>
+    {%-liquid
+        assign image_height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio
+        assign sizes = "100vw"
+        assign image_class = ""
+      -%}
+    {{ section.settings.image | image_url: width: 1500 | image_tag:
+     loading: 'lazy'
+     , width: section.settings.image.width
+     , height: image_height
+     , class: image_class
+     , sizes: sizes
+     , widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
+     , alt: section.settings.image.alt | escape
+     }}
   {%- endif -%}
 </div>
 
