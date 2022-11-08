@@ -106,7 +106,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Daily baked fresh baklava!",
+              "text": "Daily baked, hand made, fresh baklava!",
               "color_scheme": "inverse",
               "link": ""
             }
