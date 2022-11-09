@@ -135,7 +135,7 @@
           "type": "column",
           "settings": {
             "title": "Baklava",
-            "text": "<p>Baklava shouldn't be freezed or refrigerated (except milky products), it will loose the taste and crispiness. Baklava will keep the cripsniess or 3 days, and shelf life is up to 1 week except milky products. Milky products will keep the shelf life up to 3 days..<\/p>",
+            "text": "<p>Baklava shouldn't be freezed or refrigerated (except milky products), it will loose the taste and crispiness. Baklava will keep the cripsniess for 3 days, and shelf life is up to 1 week except milky products. Milky products will keep the shelf life up to 3 days..<\/p>",
             "link_label": "",
             "link": ""
           }
