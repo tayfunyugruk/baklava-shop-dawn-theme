@@ -226,3 +226,19 @@
     display: list-item;
   }
 }
+
+/* OBA BAKLAV CUSTTOM CLASSES */
+
+#multicolumn-index-boxes ul.multicolumn-list li {
+  border: 3px solid #ccd5ae;
+  background: #e9edc9;
+  border-radius: 12px;
+}
+
+#multicolumn-index-boxes .multicolumn-card__info p {
+  color: #444444;
+}
+
+#multicolumn-index-boxes .multicolumn-card__info h2 {
+  font-weight: bold;
+}

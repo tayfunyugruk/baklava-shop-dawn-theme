@@ -147,6 +147,7 @@
         "column3"
       ],
       "settings": {
+        "custom_section_id": "index-boxes",
         "title": "",
         "heading_size": "h1",
         "image_width": "third",
