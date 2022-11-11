@@ -229,10 +229,17 @@
 
 /* OBA BAKLAV CUSTTOM CLASSES */
 
+#multicolumn-index-boxes ul.multicolumn-list {
+  column-gap: 12px;
+  row-gap: 12px;
+}
+
 #multicolumn-index-boxes ul.multicolumn-list li {
   border: 3px solid #ccd5ae;
   background: #e9edc9;
   border-radius: 12px;
+  width: calc(33.33% - 12px * 2 / 3);
+    max-width: calc(33.33% - 12px * 2 / 3);
 }
 
 #multicolumn-index-boxes .multicolumn-card__info p {
