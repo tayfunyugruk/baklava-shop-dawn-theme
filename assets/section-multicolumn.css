@@ -238,8 +238,14 @@
   border: 3px solid #ccd5ae;
   background: #e9edc9;
   border-radius: 12px;
-  width: calc(33.33% - 12px * 2 / 3);
+
+}
+
+@media screen and (min-width: 750px) {
+  #multicolumn-index-boxes ul.multicolumn-list li {
+    width: calc(33.33% - 12px * 2 / 3);
     max-width: calc(33.33% - 12px * 2 / 3);
+  }
 }
 
 #multicolumn-index-boxes .multicolumn-card__info p {
