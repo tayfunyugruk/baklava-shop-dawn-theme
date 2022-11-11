@@ -235,6 +235,11 @@
   border-radius: 12px;
 }
 
+#multicolumn-index-boxes .multicolumn-list {
+  column-gap: 12px;
+  row-gap: 12px;
+}
+
 #multicolumn-index-boxes .multicolumn-card__info p {
   color: #444444;
 }
