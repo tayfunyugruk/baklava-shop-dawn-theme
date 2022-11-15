@@ -57,8 +57,7 @@
   .custom_modal__close {
     background: transparent;
     border: 0;
-    width: 30px;
-    height: 30px;
+    font-size: 20px;
   }
 
   .custom_modal__header .custom_modal__close:before {
@@ -237,6 +236,7 @@
   let modalShown = localStorage.getItem("first_order_20_modal_shown");
 
 // modalShown = null;
+
   if (! modalShown || modalShown !== "true") {
     MicroModal.init();
     MicroModal.show('modal-1'); // [1]
