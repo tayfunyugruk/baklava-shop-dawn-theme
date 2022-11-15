@@ -24,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    z-index: 100;
   }
 
   .custom_modal__container {
@@ -56,6 +57,8 @@
   .custom_modal__close {
     background: transparent;
     border: 0;
+    width: 30px;
+    height: 30px;
   }
 
   .custom_modal__header .custom_modal__close:before {
@@ -209,7 +212,7 @@
         <h2 class="custom_modal__title" id="modal-1-title">
           &nbsp;
         </h2>
-        <button class="custom_modal__close" aria-label="Close modal" data-micromodal-close></button>
+        <button class="custom_modal__close" data-custom-close="modal-1" aria-label="Close modal" data-micromodal-close></button>
       </header>
       <main class="custom_modal__content" id="modal-1-content">
         <h2 class="first_order_title">FIRST ORDER 20% OFF!</h2>
@@ -232,6 +235,8 @@
 
 <script type="text/javascript">
   let modalShown = localStorage.getItem("first_order_20_modal_shown");
+
+// modalShown = null;
   if (! modalShown || modalShown !== "true") {
     MicroModal.init();
     MicroModal.show('modal-1'); // [1]
