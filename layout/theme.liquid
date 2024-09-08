@@ -307,7 +307,7 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% if page.handle != '/' %}
+    {% if page.handle != '' %}
       {% sections 'header-group' %}
     {% endif %}
 
@@ -315,7 +315,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% if page.handle != '/' %}
+    {% if page.handle != '/]' %}
       {% sections 'footer-group' %}
     {%  endif %}
 
@@ -377,6 +377,6 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    <div>Page handle: {{  page.handle }}</div>
+    <div>Page handle: #{{  page.handle }}#</div>
   </body>
 </html>
