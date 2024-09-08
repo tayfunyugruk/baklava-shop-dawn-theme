@@ -2,6 +2,7 @@
   "sections": {
     "coming-soon": {
       "type": "coming-soon",
+      "settings": {}
     }
   },
   "order": ["coming-soon"]
