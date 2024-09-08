@@ -307,7 +307,7 @@
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% if page.handle != '' %}
+    {% if page.handle != '/' %}
       {% sections 'header-group' %}
     {% endif %}
 
@@ -315,7 +315,7 @@
       {{ content_for_layout }}
     </main>
 
-    {% if page.handle != '' %}
+    {% if page.handle != '/' %}
       {% sections 'footer-group' %}
     {%  endif %}
 
