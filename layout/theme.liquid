@@ -377,6 +377,8 @@
       <script src="{{ 'cart-drawer.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
 
-    <div>Page handle: #{{  page.handle }}#</div>
+    {% if page.handle != '' %}
+      <div>Page handle: #{{  page.handle }}#</div>
+    {%  endif %}
   </body>
 </html>
