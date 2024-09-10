@@ -204,6 +204,19 @@
               </p>
             {%- endif -%}
 
+
+
+            
+{%- assign product_in_collects = '[' -%}
+{%- for collection in card_product.collections -%} 
+{%- assign product_in_collects = product_in_collects | append: '{"collection_id":"' | append: collection.id | append: '","product_id":"' | append: card_product.id | append: '"' | append: ',"product_handle":"' | append: card_product.handle | append: '"}' -%}
+{% if forloop.last == false %}
+{%- assign product_in_collects =  product_in_collects | append: ',' -%}
+{% endif %}
+{%- endfor -%}
+{%- assign product_in_collects =  product_in_collects | append: ']' -%}
+<span class="col_clct" clct='{{product_in_collects}}'></span>
+            
             {% render 'price', product: card_product, price_class: '', show_compare_at_price: true %}
             {%- if card_product.quantity_price_breaks_configured? -%}
               {% if card_product.variants.size == 1 and quick_add == 'bulk' %}
