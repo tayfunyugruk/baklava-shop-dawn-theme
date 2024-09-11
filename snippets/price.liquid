@@ -47,7 +47,7 @@
   assign customers_tags_downcased = blank
   if customer != blank
     assign customers_tags_downcased = customer.tags | downcase
-    if customers_tags_downcased contains "vip"
+    if customers_tags_downcased contains "wholesale"
       assign hide_price_and_buy_button = true
     endif
   endif
