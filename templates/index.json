@@ -75,10 +75,53 @@
         "padding_top": 32,
         "padding_bottom": 36
       }
+    },
+    "rich_text_mfFAAD": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pRPzkm": {
+          "type": "heading",
+          "settings": {
+            "heading": "For Wholesale",
+            "heading_size": "h1"
+          }
+        },
+        "text_X8K4FN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let's get in touch with us to sell our fresh, daily baked, high quality baklava.<\/p>"
+          }
+        },
+        "button_atdUjM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply",
+            "button_link": "https:\/\/obabakerycafe.com\/pages\/register",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pRPzkm",
+        "text_X8K4FN",
+        "button_atdUjM"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "image-with-text",
-    "featured_collection"
+    "featured_collection",
+    "rich_text_mfFAAD"
   ]
 }
