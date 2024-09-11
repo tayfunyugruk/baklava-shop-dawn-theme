@@ -44,7 +44,7 @@
         "button_Xq3YdA"
       ],
       "custom_css": [
-
+        ".content-container {border: 0;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -91,7 +91,7 @@
         "button_7KF6WM"
       ],
       "custom_css": [
-        ".content-container {border: 0}"
+        ".content-container {border: 0;}"
       ],
       "settings": {
         "desktop_content_position": "left",
