@@ -38,6 +38,19 @@
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
+
+  assign hide_price_and_buy_button = false
+  if customer == blank
+    hide_price_and_buy_button = true
+  endif
+
+  assign customers_tags_downcased = blank
+  if customer != blank
+    assign customers_tags_downcased = customer.tags | downcase
+    if customers_tags_downcased contains "vip"
+      hide_price_and_buy_button = true
+    endif
+  endif
 -%}
 
 {%- unless target == null and placeholder == null -%}
@@ -68,9 +81,13 @@
               <span>
                 <s class="price-item price-item--regular variant-item__old-price">
                   {% if settings.currency_code_enabled %}
-                    {{ compare_at_price | money_with_currency }}
+                    {% if hide_price_and_buy_button == true %}
+                      {{ compare_at_price | money_with_currency }}
+                    {% endif %}
                   {% else %}
-                    {{ compare_at_price | money }}
+                    {% if hide_price_and_buy_button == true %}
+                      {{ compare_at_price | money }}
+                    {% endif %}
                   {% endif %}
                 </s>
               </span>
@@ -86,7 +103,9 @@
         {%- else -%}
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
-            {{ money_price }}
+            {% if hide_price_and_buy_button == true %}
+              {{ money_price }}
+            {% endif %}
           </span>
         {%- endif -%}
       </div>
@@ -96,16 +115,22 @@
           <span>
             <s class="price-item price-item--regular">
               {% if settings.currency_code_enabled %}
-                {{ compare_at_price | money_with_currency }}
+                {% if hide_price_and_buy_button == true %}
+                  {{ compare_at_price | money_with_currency }}
+                {% endif %}
               {% else %}
-                {{ compare_at_price | money }}
+                {% if hide_price_and_buy_button == true %}
+                  {{ compare_at_price | money }}
+                {%  endif %}
               {% endif %}
             </s>
           </span>
         {%- endunless -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
         <span class="price-item price-item--sale price-item--last">
-          {{ money_price }}
+          {% if hide_price_and_buy_button == true %}
+            {{ money_price }}
+          {% endif %}
         </span>
       </div>
       <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
