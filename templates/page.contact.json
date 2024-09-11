@@ -43,6 +43,9 @@
         "text_N8YdxK",
         "button_Xq3YdA"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -86,6 +89,9 @@
         "heading_pUkzma",
         "text_jg63n6",
         "button_7KF6WM"
+      ],
+      "custom_css": [
+        ".content-container {border: 0}"
       ],
       "settings": {
         "desktop_content_position": "left",
