@@ -39,16 +39,13 @@
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
 
-  assign hide_price_and_buy_button = false
-  if customer == blank
-    assign hide_price_and_buy_button = true
-  endif
-
+  assign hide_price_and_buy_button = true
   assign customers_tags_downcased = blank
+  
   if customer != blank
     assign customers_tags_downcased = customer.tags | downcase
     if customers_tags_downcased contains "wholesale"
-      assign hide_price_and_buy_button = true
+      assign hide_price_and_buy_button = false
     endif
   endif
 -%}
