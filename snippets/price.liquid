@@ -41,7 +41,7 @@
 
   assign hide_price_and_buy_button = true
   assign customers_tags_downcased = blank
-  
+
   if customer != blank
     assign customers_tags_downcased = customer.tags | downcase
     if customers_tags_downcased contains "wholesale"
@@ -78,11 +78,11 @@
               <span>
                 <s class="price-item price-item--regular variant-item__old-price">
                   {% if settings.currency_code_enabled %}
-                    {% if hide_price_and_buy_button == true %}
+                    {% if hide_price_and_buy_button == false %}
                       {{ compare_at_price | money_with_currency }}
                     {% endif %}
                   {% else %}
-                    {% if hide_price_and_buy_button == true %}
+                    {% if hide_price_and_buy_button == false %}
                       {{ compare_at_price | money }}
                     {% endif %}
                   {% endif %}
@@ -100,7 +100,7 @@
         {%- else -%}
           <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
           <span class="price-item price-item--regular">
-            {% if hide_price_and_buy_button == true %}
+            {% if hide_price_and_buy_button == false %}
               {{ money_price }}
             {% endif %}
           </span>
@@ -112,11 +112,11 @@
           <span>
             <s class="price-item price-item--regular">
               {% if settings.currency_code_enabled %}
-                {% if hide_price_and_buy_button == true %}
+                {% if hide_price_and_buy_button == false %}
                   {{ compare_at_price | money_with_currency }}
                 {% endif %}
               {% else %}
-                {% if hide_price_and_buy_button == true %}
+                {% if hide_price_and_buy_button == false %}
                   {{ compare_at_price | money }}
                 {%  endif %}
               {% endif %}
@@ -125,7 +125,7 @@
         {%- endunless -%}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.sale_price' | t }}</span>
         <span class="price-item price-item--sale price-item--last">
-          {% if hide_price_and_buy_button == true %}
+          {% if hide_price_and_buy_button == false %}
             {{ money_price }}
           {% endif %}
         </span>
@@ -133,7 +133,7 @@
       <small class="unit-price caption{% if product.selected_or_first_available_variant.unit_price_measurement == nil %} hidden{% endif %}">
         <span class="visually-hidden">{{ 'products.product.price.unit_price' | t }}</span>
         <span class="price-item price-item--last">
-          <span>{% if hide_price_and_buy_button == true %}{{- product.selected_or_first_available_variant.unit_price | money -}}{% endif %}</span>
+          <span>{% if hide_price_and_buy_button == false %}{{- product.selected_or_first_available_variant.unit_price | money -}}{% endif %}</span>
           <span aria-hidden="true">/</span>
           <span class="visually-hidden">&nbsp;{{ 'accessibility.unit_price_separator' | t }}&nbsp;</span>
           <span>
