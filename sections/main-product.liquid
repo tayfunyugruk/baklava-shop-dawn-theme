@@ -1,11 +1,11 @@
 {%- liquid
-  assign hide_price_and_buy_button = true
+  assign show_price_and_buy_button = false
   assign customers_tags_downcased = blank
 
   if customer != blank
     assign customers_tags_downcased = customer.tags | downcase
     if customers_tags_downcased contains "wholesale"
-      assign hide_price_and_buy_button = false
+      assign show_price_and_buy_button = true
     endif
   endif
 -%}
@@ -120,7 +120,7 @@
                   </a>
                 </div>
               {%- when 'price' -%}
-                {% if hide_price_and_buy_button == false %}
+                {% if show_price_and_buy_button == true %}
                   <div id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
                     {%- render 'price',
                       product: product,
