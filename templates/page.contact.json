@@ -52,8 +52,53 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_w7TnDL": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pUkzma": {
+          "type": "heading",
+          "settings": {
+            "heading": "Message Us",
+            "heading_size": "h0"
+          }
+        },
+        "text_jg63n6": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "button_7KF6WM": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_pUkzma",
+        "text_jg63n6",
+        "button_7KF6WM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 0
@@ -72,6 +117,7 @@
   },
   "order": [
     "rich_text_URxarX",
+    "rich_text_w7TnDL",
     "main",
     "form"
   ]
