@@ -57,10 +57,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_7YpTAR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_WH9Bti": {
+          "type": "heading",
+          "settings": {
+            "heading": "Opening Soon",
+            "heading_size": "h1"
+          }
+        },
+        "text_UdUciQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Boston, if you want to experience <strong>fresh, daily baked and high quality baklava <\/strong>your wait will soon be over! Oba Bakery will be opening it's doors soon. <\/p><p>Stay Tuned<\/p>"
+          }
+        },
+        "button_LBw9te": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_WH9Bti",
+        "text_UdUciQ",
+        "button_LBw9te"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "collage_pbtPtT"
+    "collage_pbtPtT",
+    "rich_text_7YpTAR"
   ]
 }
