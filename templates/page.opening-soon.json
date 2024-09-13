@@ -17,45 +17,13 @@
         "padding_bottom": 28
       }
     },
-    "collage_pbtPtT": {
-      "type": "collage",
-      "blocks": {
-        "image_FBWhBB": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/oba-bakery-logo-and-copy.png"
-          }
-        },
-        "product_efBTHK": {
-          "type": "product",
-          "disabled": true,
-          "settings": {
-            "product": "",
-            "second_image": false
-          }
-        },
-        "collection_UWemeJ": {
-          "type": "collection",
-          "disabled": true,
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_FBWhBB",
-        "product_efBTHK",
-        "collection_UWemeJ"
-      ],
+    "custom_liquid_6wERrx": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "column",
-        "card_styles": "product-card-wrapper",
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; align-items: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/3729\/6706\/files\/oba-bakery-logo-and-copy_e916498f-5a57-41ff-a8a8-954df4b82c52.png?v=1726190378\" \/>\n<\/div>",
         "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_7YpTAR": {
@@ -104,7 +72,7 @@
   },
   "order": [
     "main",
-    "collage_pbtPtT",
+    "custom_liquid_6wERrx",
     "rich_text_7YpTAR"
   ]
 }
