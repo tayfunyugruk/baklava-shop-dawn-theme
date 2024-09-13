@@ -19,8 +19,11 @@
     },
     "custom_liquid_6wERrx": {
       "type": "custom-liquid",
+      "custom_css": [
+        "@media only screen and (max-width: 600px) {.logo-image {width: 100vw; }}"
+      ],
       "settings": {
-        "custom_liquid": "<div style=\"display: flex; justify-content: center; align-items: center;\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/3729\/6706\/files\/oba-bakery-logo-and-copy_e916498f-5a57-41ff-a8a8-954df4b82c52.png?v=1726190378\" style=\"width: 500px; height: 538px;\" \/>\n<\/div>",
+        "custom_liquid": "<div style=\"display: flex; justify-content: center; align-items: center;\">\n<img \nclass=\"logo-image\" src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0550\/3729\/6706\/files\/oba-bakery-logo-and-copy_e916498f-5a57-41ff-a8a8-954df4b82c52.png?v=1726190378\" style=\"width: 500px; height: 538px;\" \/>\n<\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52
