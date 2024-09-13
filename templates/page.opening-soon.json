@@ -49,6 +49,9 @@
         "text_V4yeii",
         "button_c7yEDn"
       ],
+      "custom_css": [
+        ".content-container {border: 0;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/oba-bakery-logo-and-copy.png",
         "height": "adapt",
