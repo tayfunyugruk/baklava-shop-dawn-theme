@@ -79,6 +79,48 @@
         "padding_bottom": 36
       }
     },
+    "rich_text_Gyhp7C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_g3Pd8j": {
+          "type": "heading",
+          "settings": {
+            "heading": "Store Location",
+            "heading_size": "h1"
+          }
+        },
+        "text_jEjU8n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>16 Brighton Ave, Allston, MA (Location of Old Turkuz Market)<\/p>"
+          }
+        },
+        "button_7C4Mzx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Directions",
+            "button_link": "https:\/\/maps.app.goo.gl\/nEmRj2yfAWzqzrYz8",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_g3Pd8j",
+        "text_jEjU8n",
+        "button_7C4Mzx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_mfFAAD": {
       "type": "rich-text",
       "blocks": {
@@ -125,6 +167,7 @@
   "order": [
     "image-with-text",
     "featured_collection",
+    "rich_text_Gyhp7C",
     "rich_text_mfFAAD"
   ]
 }
