@@ -1,5 +1,5 @@
 {
-    "layout": false,
+    "layout": "digital-menu",
     "sections": {
         "main": {
             "type": "digital-menu",
