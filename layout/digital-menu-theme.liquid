@@ -80,13 +80,6 @@
         link = document.getElementById("container");
         link.removeAttribute("onclick");
         link.setAttribute("onclick", "cancelFullScreen()");
-
-        setTimeout(function() {
-            const width  = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;
-            const height = window.innerHeight|| document.documentElement.clientHeight || document.body.clientHeight;
-
-            alert(`${width}, ${height}`);
-        }, 1000);
     }
 
     window.onload = function() {
