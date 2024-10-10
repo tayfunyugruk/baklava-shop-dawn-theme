@@ -9,6 +9,48 @@
 */
 {
   "sections": {
+    "rich_text_Gyhp7C": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_g3Pd8j": {
+          "type": "heading",
+          "settings": {
+            "heading": "Store Location",
+            "heading_size": "h1"
+          }
+        },
+        "text_jEjU8n": {
+          "type": "text",
+          "settings": {
+            "text": "<p>16 Brighton Ave, Allston, MA</p>"
+          }
+        },
+        "button_7C4Mzx": {
+          "type": "button",
+          "settings": {
+            "button_label": "Directions",
+            "button_link": "https://maps.app.goo.gl/nEmRj2yfAWzqzrYz8",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_g3Pd8j",
+        "text_jEjU8n",
+        "button_7C4Mzx"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-3",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
@@ -23,7 +65,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop all",
-            "button_link": "shopify:\/\/collections\/all",
+            "button_link": "shopify://collections/all",
             "button_style_secondary": false
           }
         }
@@ -36,7 +78,7 @@
 
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/main_page_image_1600x1018_with_icons.png",
+        "image": "shopify://shop_images/main_page_image_1600x1018_with_icons.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
@@ -79,48 +121,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_Gyhp7C": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_g3Pd8j": {
-          "type": "heading",
-          "settings": {
-            "heading": "Store Location",
-            "heading_size": "h1"
-          }
-        },
-        "text_jEjU8n": {
-          "type": "text",
-          "settings": {
-            "text": "<p>16 Brighton Ave, Allston, MA<\/p>"
-          }
-        },
-        "button_7C4Mzx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Directions",
-            "button_link": "https:\/\/maps.app.goo.gl\/nEmRj2yfAWzqzrYz8",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_g3Pd8j",
-        "text_jEjU8n",
-        "button_7C4Mzx"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_mfFAAD": {
       "type": "rich-text",
       "blocks": {
@@ -134,14 +134,14 @@
         "text_X8K4FN": {
           "type": "text",
           "settings": {
-            "text": "<p>Let's get in touch with us to sell our fresh, daily baked, high quality baklava.<\/p>"
+            "text": "<p>Let's get in touch with us to sell our fresh, daily baked, high quality baklava.</p>"
           }
         },
         "button_atdUjM": {
           "type": "button",
           "settings": {
             "button_label": "Apply",
-            "button_link": "https:\/\/obabakerycafe.com\/pages\/register",
+            "button_link": "https://obabakerycafe.com/pages/register",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -165,9 +165,9 @@
     }
   },
   "order": [
+    "rich_text_Gyhp7C",
     "image-with-text",
     "featured_collection",
-    "rich_text_Gyhp7C",
     "rich_text_mfFAAD"
   ]
 }
