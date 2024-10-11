@@ -59,7 +59,7 @@
         "heading_g3Pd8j": {
           "type": "heading",
           "settings": {
-            "heading": "Visit Our Store!",
+            "heading": "Oba Bakery",
             "heading_size": "h1"
           }
         },
@@ -75,8 +75,8 @@
             "button_label": "",
             "button_link": "",
             "button_style_secondary": false,
-            "button_label_2": "Directions",
-            "button_link_2": "https://maps.app.goo.gl/nEmRj2yfAWzqzrYz8",
+            "button_label_2": "Pickup Order",
+            "button_link_2": "https://www.clover.com/online-ordering/oba-bakery-boston",
             "button_style_secondary_2": false
           }
         }
