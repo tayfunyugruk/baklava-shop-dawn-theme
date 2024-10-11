@@ -72,10 +72,10 @@
           "type": "button",
           "settings": {
             "button_label": "",
-            "button_link": "https://maps.app.goo.gl/nEmRj2yfAWzqzrYz8",
+            "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "Directions",
-            "button_link_2": "",
+            "button_link_2": "https://maps.app.goo.gl/nEmRj2yfAWzqzrYz8",
             "button_style_secondary_2": false
           }
         }
