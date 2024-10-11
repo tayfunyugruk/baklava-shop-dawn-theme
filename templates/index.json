@@ -9,6 +9,49 @@
  */
 {
   "sections": {
+    "rich_text_NqdBN6": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_9Fmf9M": {
+          "type": "heading",
+          "settings": {
+            "heading": "Online Ordering",
+            "heading_size": "h1"
+          }
+        },
+        "text_wNeBL7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
+        },
+        "button_UqXdBp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Order Online and Pickup",
+            "button_link": "https://www.clover.com/online-ordering/oba-bakery-boston",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9Fmf9M",
+        "text_wNeBL7",
+        "button_UqXdBp"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_Gyhp7C": {
       "type": "rich-text",
       "blocks": {
@@ -28,10 +71,10 @@
         "button_7C4Mzx": {
           "type": "button",
           "settings": {
-            "button_label": "Directions",
+            "button_label": "",
             "button_link": "https://maps.app.goo.gl/nEmRj2yfAWzqzrYz8",
             "button_style_secondary": false,
-            "button_label_2": "",
+            "button_label_2": "Directions",
             "button_link_2": "",
             "button_style_secondary_2": false
           }
@@ -166,6 +209,7 @@
     }
   },
   "order": [
+    "rich_text_NqdBN6",
     "rich_text_Gyhp7C",
     "image-with-text",
     "featured_collection",
