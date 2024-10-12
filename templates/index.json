@@ -72,8 +72,8 @@
         "button_7C4Mzx": {
           "type": "button",
           "settings": {
-            "button_label": "",
-            "button_link": "",
+            "button_label": "Directions",
+            "button_link": "https://maps.app.goo.gl/FnYJjqJm3YGxQGjh7",
             "button_style_secondary": false,
             "button_label_2": "Pickup Order",
             "button_link_2": "https://www.clover.com/online-ordering/oba-bakery-boston",
