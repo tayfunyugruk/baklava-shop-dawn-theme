@@ -72,7 +72,7 @@
         "button_7C4Mzx": {
           "type": "button",
           "settings": {
-            "button_label": "Directions",
+            "button_label": "Show in Map",
             "button_link": "https://maps.app.goo.gl/FnYJjqJm3YGxQGjh7",
             "button_style_secondary": false,
             "button_label_2": "Pickup Order",
