@@ -86,6 +86,9 @@
         "text_jEjU8n",
         "button_7C4Mzx"
       ],
+      "custom_css": [
+        ".rich-text__buttons--multiple a {font-size: 2rem; font-weight: bold;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
