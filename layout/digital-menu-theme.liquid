@@ -30,8 +30,9 @@
         width: 100%; height: auto; 
         opacity: 0; 
     }
-    figure#slideshow img:first-child { position: relative; }
-
+    figure#slideshow img:first-child { 
+        position: relative; 
+    }
     #container:fullscreen { 
         display: flex; 
         justify-content: center; 
@@ -84,19 +85,24 @@
 
     window.onload = function() {
         imgs = document.getElementById('slideshow').children;
-        interval = 300 * 1000;
-        fadeInterval = 5 * 1000;
+        interval = 300_000;
+        fadeInterval = 5_000;
         currentPic = 0;
-        imgs[currentPic].style.webkitAnimation = 'fadey '+fadeInterval+'ms';
-        imgs[currentPic].style.animation = 'fadey '+fadeInterval+'ms';
-        var infiniteLoop = setInterval(function(){
+
+        imgs[currentPic].style.webkitAnimation = 'fadey ' + interval + 'ms';
+        imgs[currentPic].style.animation = 'fadey ' + interval + 'ms';
+
+        var infiniteLoop = setInterval(function() {
             imgs[currentPic].removeAttribute('style');
-            if ( currentPic == imgs.length - 1) { currentPic = 0; } else { currentPic++; }
-            imgs[currentPic].style.webkitAnimation = 'fadey '+fadeInterval+'ms';
-            imgs[currentPic].style.animation = 'fadey '+fadeInterval+'ms';
+            if ( currentPic == imgs.length - 1) { 
+                currentPic = 0; 
+            } else { 
+                currentPic++; 
+            }
+            imgs[currentPic].style.webkitAnimation = 'fadey ' + fadeInterval + 'ms';
+            imgs[currentPic].style.animation = 'fadey ' + fadeInterval + 'ms';
         }, interval);
     }
-
    </script>
    {{content_for_header}}
   </head>
