@@ -201,6 +201,9 @@
         "text_9kjCpd",
         "button_b9HeTj"
       ],
+      "custom_css": [
+        ".rich-text__buttons--multiple a {font-size: 2rem; font-weight: bold;}"
+      ],
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
