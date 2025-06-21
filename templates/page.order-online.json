@@ -11,7 +11,7 @@
     "layout": "clean-tailwind-theme",
     "sections": {
         "main": {
-            "type": "hiring",
+            "type": "order-online",
             "settings": {
             }
         }
