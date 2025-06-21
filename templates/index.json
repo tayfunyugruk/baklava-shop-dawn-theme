@@ -168,52 +168,6 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_ByhEiV": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_U8tpDh": {
-          "type": "heading",
-          "settings": {
-            "heading": "Order Online",
-            "heading_size": "h1"
-          }
-        },
-        "text_9kjCpd": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        },
-        "button_b9HeTj": {
-          "type": "button",
-          "settings": {
-            "button_label": "DoorDash",
-            "button_link": "https://www.doordash.com/store/oba-bakery-boston-31292595/45478955/",
-            "button_style_secondary": false,
-            "button_label_2": "UberEats",
-            "button_link_2": "https://www.ubereats.com/store/oba-bakery/sj4AoHbcTymxY9dsqB7tYg",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_U8tpDh",
-        "text_9kjCpd",
-        "button_b9HeTj"
-      ],
-      "custom_css": [
-        ".rich-text__buttons--multiple a {font-size: 2rem; font-weight: bold;}"
-      ],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "rich_text_mfFAAD": {
       "type": "rich-text",
       "blocks": {
@@ -262,7 +216,6 @@
     "rich_text_Gyhp7C",
     "image-with-text",
     "featured_collection",
-    "rich_text_ByhEiV",
     "rich_text_mfFAAD"
   ]
 }
