@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/oba-baklava-logo-282x221_d73900ca-fc0f-45d6-8df4-3924ee8a863b.png",
+    "logo": "shopify://shop_images/oba-baklava-logo-282x221_d73900ca-fc0f-45d6-8df4-3924ee8a863b.png",
     "logo_width": 100,
-    "favicon": "shopify:\/\/shop_images\/oba-baklava-logo-282x221_f348dd0d-58b6-4218-9993-f4995fb775ec.png",
+    "favicon": "shopify://shop_images/oba-baklava-logo-282x221_f348dd0d-58b6-4218-9993-f4995fb775ec.png",
     "type_header_font": "avenir_next_n5",
     "heading_scale": 125,
     "type_body_font": "anonymous_pro_n4",
@@ -108,10 +108,10 @@
     "sale_badge_color_scheme": "scheme-4",
     "sold_out_badge_color_scheme": "scheme-4",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
     "social_facebook_link": "",
-    "social_instagram_link": "https:\/\/www.instagram.com\/obabakery",
+    "social_instagram_link": "https://www.instagram.com/obabakery",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -142,12 +142,10 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "18209738915288330680": {
-        "type": "shopify:\/\/apps\/wholesale-all-in-one\/blocks\/wholesale-all-in-one\/5a3d95fb-5647-47d5-8445-d5858f91ff9d",
+        "type": "shopify://apps/wholesale-all-in-one/blocks/wholesale-all-in-one/5a3d95fb-5647-47d5-8445-d5858f91ff9d",
         "disabled": false,
         "settings": {
           "wsaio_app_access_token": "taste_wsaiouvh6qz_JQ",
@@ -373,7 +371,7 @@
       "sale_badge_color_scheme": "scheme-4",
       "sold_out_badge_color_scheme": "scheme-4",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

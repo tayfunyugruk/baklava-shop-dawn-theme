@@ -122,9 +122,7 @@
         "button"
       ],
       "disabled": true,
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "image": "shopify://shop_images/main_page_image_1600x1018_with_icons.png",
         "height": "adapt",
