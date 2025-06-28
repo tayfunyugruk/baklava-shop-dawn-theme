@@ -88,7 +88,7 @@
       ],
       "custom_css": [
         ".rich-text__buttons--multiple a {font-size: 2rem; font-weight: bold;}",
-        ".rich-text__wrapper {padding: 1rem; background-color: rgba(255, 255, 255, 0.5)}",
+        ".rich-text__wrapper {padding: 1rem; background-color: rgba(255, 255, 255, 0.75);}",
         ".rich-text.content-container {background-image: url(https://cdn.shopify.com/s/files/1/0550/3729/6706/files/PHOTO-2022-08-06-13-54-45_2.jpg?v=1660508716); background-position: center;}"
       ],
       "settings": {
