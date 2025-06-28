@@ -100,62 +100,6 @@
         "padding_bottom": 52
       }
     },
-    "slideshow_wmbyWg": {
-      "type": "slideshow",
-      "blocks": {
-        "slide_tKtk7x": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2022-08-06-13-54-45_2.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_7G8JCY": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/PHOTO-2022-08-03-07-05-022.jpg",
-            "heading": "",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        }
-      },
-      "block_order": [
-        "slide_tKtk7x",
-        "slide_7G8JCY"
-      ],
-      "name": "t:sections.slideshow.presets.name",
-      "settings": {
-        "layout": "full_bleed",
-        "slide_height": "medium",
-        "slider_visual": "dots",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "ambient",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
     "featured_collection": {
       "type": "featured-collection",
       "disabled": true,
@@ -231,7 +175,6 @@
   "order": [
     "rich_text_NqdBN6",
     "rich_text_Gyhp7C",
-    "slideshow_wmbyWg",
     "featured_collection",
     "rich_text_mfFAAD"
   ]
