@@ -59,14 +59,14 @@
         "heading_g3Pd8j": {
           "type": "heading",
           "settings": {
-            "heading": "Oba Bakery",
+            "heading": "Oba Bakery Cafe",
             "heading_size": "h1"
           }
         },
         "text_jEjU8n": {
           "type": "text",
           "settings": {
-            "text": "<p>16 Brighton Ave, Allston, MA</p>"
+            "text": "<h4><strong>16 Brighton Ave, Allston, MA</strong></h4>"
           }
         },
         "button_7C4Mzx": {
@@ -87,7 +87,9 @@
         "button_7C4Mzx"
       ],
       "custom_css": [
-        ".rich-text__buttons--multiple a {font-size: 2rem; font-weight: bold;}"
+        ".rich-text__buttons--multiple a {font-size: 2rem; font-weight: bold;}",
+        ".rich-text__wrapper {padding: 2rem; background-color: rgba(255, 255, 255, 0.8);}",
+        ".rich-text.content-container {background-image: url(https://cdn.shopify.com/s/files/1/0550/3729/6706/files/PHOTO-2022-08-06-13-54-45_2.jpg?v=1660508716); background-position: center;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -96,47 +98,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Shop Fresh Baklava",
-            "heading_size": "h0"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop all",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "button"
-      ],
-      "disabled": true,
-      "custom_css": [],
-      "settings": {
-        "image": "shopify://shop_images/main_page_image_1600x1018_with_icons.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
-        "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "padding_top": 12,
-        "padding_bottom": 32
       }
     },
     "featured_collection": {
@@ -214,7 +175,6 @@
   "order": [
     "rich_text_NqdBN6",
     "rich_text_Gyhp7C",
-    "image-with-text",
     "featured_collection",
     "rich_text_mfFAAD"
   ]
