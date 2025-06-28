@@ -98,45 +98,60 @@
         "padding_bottom": 52
       }
     },
-    "image-with-text": {
-      "type": "image-with-text",
+    "slideshow_wmbyWg": {
+      "type": "slideshow",
       "blocks": {
-        "heading": {
-          "type": "heading",
+        "slide_tKtk7x": {
+          "type": "slide",
           "settings": {
-            "heading": "Shop Fresh Baklava",
-            "heading_size": "h0"
+            "image": "shopify://shop_images/PHOTO-2022-08-06-13-54-45_2.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         },
-        "button": {
-          "type": "button",
+        "slide_7G8JCY": {
+          "type": "slide",
           "settings": {
-            "button_label": "Shop all",
-            "button_link": "shopify://collections/all",
-            "button_style_secondary": false
+            "image": "shopify://shop_images/PHOTO-2022-08-03-07-05-022.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "",
+            "text_alignment_mobile": "center"
           }
         }
       },
       "block_order": [
-        "heading",
-        "button"
+        "slide_tKtk7x",
+        "slide_7G8JCY"
       ],
-      "disabled": true,
-      "custom_css": [],
+      "name": "t:sections.slideshow.presets.name",
       "settings": {
-        "image": "shopify://shop_images/main_page_image_1600x1018_with_icons.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "scheme-1",
-        "color_scheme": "scheme-1",
+        "layout": "full_bleed",
+        "slide_height": "medium",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
         "image_behavior": "ambient",
-        "mobile_content_alignment": "center",
-        "padding_top": 12,
-        "padding_bottom": 32
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
       }
     },
     "featured_collection": {
@@ -214,7 +229,7 @@
   "order": [
     "rich_text_NqdBN6",
     "rich_text_Gyhp7C",
-    "image-with-text",
+    "slideshow_wmbyWg",
     "featured_collection",
     "rich_text_mfFAAD"
   ]
